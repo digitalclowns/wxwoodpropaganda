@@ -1,0 +1,54 @@
+﻿“After the wiring to their long-unused empathy module is repaired, WX-78 finds themselves suddenly reconnecting with memories they’d hoped to keep buried.”
+–From the official Youtube description for "Disconnected"
+
+
+WX-78's backstory was revealed in an animated short titled Disconnected.
+
+
+An official summary of the short was provided in DST's Compendium:
+
+
+“WX-78 was the result of an unorthodox experiment helmed by {[LoadEmpathyModLibraryExW()......ERROR_DATA_PATH_NOT_FOUND]} and Robert Wagstaff. The experiment turned out to be a [RESOUNDING SUCCESS], but Wagstaff was [A SHORT SIGHTED FOOL, AFRAID OF PROGRESS] and decided to put a stop to further tests. Adamant that the process that created them could still be perfected, WX refused to give up, continuing their experiments in secret. When Wagstaff discovered what they had been doing, there was a heated argument and01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101 00100000 01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101 00100000 01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101”
+
+
+Lore
+WX-78 is officially stated to be non-binary[4], and is listed as the robot gender in the game's code. They are the only official character referred to with singular they pronouns. Notably, in DST, Maxwell uses the English gender-neutral title Mx. exclusively in certain interactions with a WX-78 player.
+WX-78 has mechanical parts that are analogous to the parts of human beings, such as their Chemical Engine acting as a stomach, Optical Sensors acting as their eyes, a CPU functioning as their brain, a Smelling Module as a nose, a Masticating Protocol for chewing, and a Processing Unit described as being their head. When they sleep, they activate Sleep Mode.
+WX-78 refers to many of the mechanical Structures and Items with familial terms, suggesting they are related to them or that they mistake them for family.
+The Rainometer, Tar Extractor, Ice Box, Willow's Lighter, and themself on the Nightmare Throne are brothers, the Electrical Doodad and the Lunar Siphonator are sisters, and the Lantern, Alchemy Engine, Thermal Measurer, Ice Flingomatic, and Lying Robot are friends.
+They deny relations to the Sea Lab due to its ability to be in the ocean. They do acknowledge kinship with the Portable Crock Pot and Potatoes.
+They say that the Metal Potato Thing reminds them of their mother. They also identify the Science Machine as their mother.
+WX-78 is described as "hating all living matter". However, they seem to have a soft spot for Bees and Lureplants, stating "A MINDLESS DRONE. I LIKE HIM." and "AWW, IT IS JUST AS EVIL AS I AM.", respectively.
+WX-78 seems to have an affinity for the Moon, describing it as "INORGANIC AND GOOD". They are very excited when they repair the Moon Stone ("MOONBASE. AAAAA. MOONBASE!"). While examining the Lunar Essence Extractor they say "THAT MOON POWER SHOULD BE MINE".
+Their least favorite foods seem to be Eggs ("I HATE YOU, EGG") and Sweet Potatoes ("GROSS").
+When examining a Camp Fire or Fire Pit, WX-78 says that it reminds them of something. It is currently unknown what this "something" is.
+The animated short Disconnected shows a memory of Robert Wagstaff burning what can be assumed to be their old scientific work, so it's possible that's what the quote is referring to.
+In the animated short Next of Kin, a drawing of a robot similar to WX-78 can be seen pinned on a board made by Winona that connects various people, places and events to Charlie's disappearance.
+In the compendium entry for Disconnected, it is stated that WX-78 is a collaborative experiment by themself and Robert Wagstaff. This is referenced in their quotes.
+When Wagstaff examines WX-78 on the Nightmare Throne he seems to recognize them. ("Is that...? But it couldn't be!")
+WX-78's examination quotes for the Grainy Transmission ("YOU"), Wagstaff's tools ("WHY WOULD I HELP HIM"), and the Lunar Siphonator ("DON'T TRUST HIM, SISTER. DON'T EVER TRUST HIM") show that they still recognize Wagstaff, and that they heavily dislike and distrust him.
+Wagstaff's quote for the Floaty Boaty Knight is "Amazing! I ran into many difficulties waterproofing my automaton." This appears to be a reference to WX-78's weakness to water.
+Both Wagstaff and WX-78 have significantly similar examination quotes for the Pine Cone. (Wagstaff: "My favorite portable Fibonacci sequence." and WX-78: "A PORTABLE FIBONACCI SEQUENCER"), implying Wagstaff mentioned the fact so much that WX-78 picked it up from him.
+WX-78 and Wagstaff are also the only two characters who identify the missing component of the Broken AAC Device, a DR356X001. (Wagstaff: "Ah. It needs a DR356X001." and WX-78: "OF COURSE IT'S BROKEN, IT'S MISSING A DR356X001")
+WX-78's name has a similar naming convention to several other inventions by Wagstaff, namely the PR-76 radio and the ML-77 gramaphone.
+WX-78's "buildday" is listed as November 28 in the Compendium.
+When translated to text, the binary in their Compendium entry says 'too late too late too late'.
+
+
+In-Game
+WX-78 was added to Don't Starve in the Spoiled Rotten update on January 15, 2013.
+WX-78's voice is played by what is explained as a "crazy processed synth".
+WX-78 has a Skull in the game files. Also, when struck by Lightning, a skeleton can be seen.
+WX-78 makes a unique creaking noise as they walk.
+Although they take damage from Wetness, WX-78 can eat watery foods such as Pomegranates, Meaty Stew, or even Watermelons without being harmed.
+WX-78 is one of the original four Characters that were available during the closed Beta of DST.
+In DST, if the player communicates to others with the Y or U keys as WX-78, all messages will be sent in uppercase letters like their original dialogue.
+Most of their audio files are labelled Woodrow, which may indicate they were originally meant for an unimplemented character who also has their own audio files in the code. That, or Woodrow was an early iteration of their character.
+WX-78 is oddly inconsistent with their punctuation in quotes. For instance, they often leave the end of their sentences without a period.
+When WX-78 examines a Slurper, they will say "IT VIOLATED MY SMELLING MODULE", but when they examine a Durian, they will say "GOOD THING I LACK A NOSE". This inconsistency may be intentional for comedic effect or just an error.
+WX-78 was originally planned to speak in randomly generated binary.
+If WX-78 dies from Wetness or Rain, their death will be listed as "Short Circuit".
+In DST, WX-78 will not drop a Soul if they die near Wortox.
+They are one of two playable characters to have unique interactions with Wortox's soul-stealing mechanic. The other is Webber, who drops 2 Souls on death.
+The early concept for WX was "Are they a boy trapped in a robot body or are they a robot that thinks they are a boy trapped in a robot body?"
+The developers during the WX-78 Refresh wanted to change their stats to binary (101/111/110), but in the end it was too much to rebalance and play test with the remaining time in the beta.

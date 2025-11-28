@@ -1,0 +1,555 @@
+﻿WX-78 
+Their first impression
+(And oh boy, there’s a lot of stuff going on with that robot.)
+
+
+How much of what we’re shown is actually them and how much is a facade they’re putting on?
+
+
+As we all know from WX-78’s character description and their average quote, our general impression of them, is that they’re the stereotypical trope of the evil, soulless machine who wants to kill and/or enslave all humans.
+
+
+But as is with all Don’t Starve characters, what initially seems to be a 1-dimensional stereotype, is actually a much deeper character.
+
+
+This, of course, applies to WX-78 also, as they don’t actually hate all living things. They only enjoy destruction when it’s not on too grand of a scale, and most of all, they’re not as evil as they desperately try to make themself out to be.
+
+
+Don’t believe me? Well then, how about I show you some proof; Instances, while few and far in between, where they show a much softer side to themself, an unwillingness to destroy certain things and even genuine fondness, sympathy or appreciation for organic creatures!
+
+
+Times when they’re not a fan of violence and destruction:
+
+
+Bent Spork- “SUCH SENSELESS VIOLENCE”
+
+
+Sapling, Grass Tuft, Berry Bush, and Spiky Bush (held)- “IT WOULD BE MORE USEFUL IN THE GROUND”
+
+
+Fruit Fly- “ONLY I AM PERMITTED TO THREATEN THE ORGANICS”
+
+
+Sapling (burning)- “RESOURCES WASTED”
+
+
+Science Machine (burnt)- “MOTHER, NO!”
+
+
+Rainometer (burnt)- “YOU ARE MISSED, BROTHER.”
+
+
+(Willow) Firestarter- “RELINQUISH YOUR LIGHTER, FLESHLING”
+
+
+(Wurt) Murderer- “DON’T DESTROY TOO MANY OF MY MINIONS, %s”
+
+
+(Wanda) Firestarter- “POOR USELESS FLESHLING. THAT’S NOT HOW YOU SET UP A FIREWALL”
+
+
+W.A.R.B.O.T (leg)– “IT DIDN’T HAVE TO BE LIKE THIS!”
+
+
+Gears- “OH NO. WHAT HAVE I DONE TO YOU?”
+
+
+Times when they show sympathy or fondness towards organic creatures (including plants):
+
+
+Pig Torch- “IT GIVES HIM PURPOSE”
+
+
+Worker- “A MECHANIC. THE NOBLEST PROFESSION”
+
+
+Ewecus- “AT LEAST IT HAS METAL COVERING IT”
+
+
+Slurtle- “HE HAS A SHELL LIKE ME”
+
+
+Kittykit- “IT USES "CUTENESS” AS A WEAPON. RESPECTABLE"
+
+
+Glomglom- “YOU HAVE BEEN A LOYAL MINION, GLOMGLOM”
+
+
+Mothling- “IT HAS NO OFFENSIVE USAGE, YET I AM COMPELLED TO KEEP IT”
+
+
+Pog- “WARNING: CUTENESS OVERLOAD”
+
+
+Frostjaw- “IT HIDES ITS FLESHBODY UNDER COLD, INORGANIC MATERIAL. COMMENDABLE”
+
+
+Suspicious Peeper- “MY FLESHLING MINIONS ARE SUPERIOR TO YOUR FLESHLING MINIONS”
+
+
+(Wickerbottom) Reviver- “%s HAS AN EXTENSIVE MENTAL DATABASE”
+
+
+(Webber)Reviver- “%s IS FAR SUPERIOR TO OTHER SPIDERS. BUT STILL INFERIOR TO ROBOTS.”
+
+
+(Walter) Reviver- “WELL DONE. YOU WILL BE A MOST USEFUL MINION”
+
+
+(Winona) Reviver- “%s IS A VALUABLE MINION”
+
+
+And of course…
+
+
+(Wormwood) Attacker- “%s HAS A MEAN STREAK. HE IS GROWING ON ME”
+
+
+Meat Bulb- “AWW, IT’S JUST AS EVIL AS I AM.”
+
+
+Fleshy Bulb- “THE POWER TO START LIFE.”
+
+
+Miniature Tree- “IT IS HARDY AND DOESN’T NEED ANY CARE. MINIONS, LEARN FROM ITS EXAMPLE”
+
+
+Pumpkin- “IT HAS A PLEASING SHAPE”
+
+
+Compost- “DISGUSTING. THE PLANTS WILL LOVE IT”
+
+
+Plant (very stressed)- “I’D BE UPSET TOO IF I WERE A FILTHY ORGANIC STUCK IN THE DIRT”
+
+
+Can’t fill watering can with ocean water- “EVEN THE PLANTS HATE SEAWATER”
+
+
+Farm Plant (full weed)- “AN IMPOSTER IN MY GARDEN!”
+
+
+Nearby Bees- “BEES!”
+
+
+Bee- “A MINDLESS DRONE. I LIKE HIM.”
+
+
+Bee (held)- “ITS VIBRATIONS ARE COMFORTING”
+
+
+Killer Bee Hive- “A BEAUTIFUL EXAMPLE OF EFFICIENCY”
+
+
+Grumble Bee- “LOYAL MINIONS OF THE QUEEN”
+
+
+Gigantic Beehive- “PROOF OF BEES’ INDUSTRIOUSNESS”
+
+
+Bee Queen Crown- “…BECOME THE BEE…”
+
+
+And finally, times when they drop down their guard and act very out of character; where they’re friendly, soft and their demeanor strongly resembles that of Wormwood’s.
+
+
+Bernie (held and inactive)- “IT’S SO CUDDLY!”
+
+
+Bernie (active)- “HANG IN THERE, BEAR!”
+
+
+Iron Hulk (ribcage)- “FRIEND?”
+
+
+Alchemy Engine, Thermal Measurer, Smelter & Iron Ore- “HELLO FRIEND”
+
+
+Lying Robot- “HIS NAME IS HAL. HE IS MY FRIEND.”
+
+
+Lantern- “LIGHT THE WAY, FRIEND”
+
+
+Friendly Terramite– “CUTIE PIE”
+
+
+Ice Flingomatic (off)- “QUIET FRIEND”
+
+
+Ice Flingomatic (on)- “FRIEND IS WHIRRING”
+
+
+Ice Flingomatic (low fuel)- “FRIEND NEEDS FOOD BADLY”
+
+
+Hedgehog Rug- “WARNING: CUTENESS OVERLOAD”
+
+
+Pinchin’ Winch (retrieving item)- “BE CAREFUL DOWN THERE”
+
+
+Winona’s Generator (low fuel)- “DO NOT GIVE UP, BROTHER”
+
+
+Winona’s Generator (out of fuel)- “NOOO”
+
+
+These are only some of the examples, and yes, most of them are strictly directed at inornagic beings and machines, but I’ll get more into that topic later.
+
+
+What I wanted to make clear however, is that WX-78 isn’t as evil, emotionless or soulless as they think they are. They are a well-written character who has flaws, a strong personal belief system and their own struggles to deal with.
+
+
+And what’s at the core of it all?
+
+
+Their backstory
+Campfire and Fire Pit (normal)- “IT REMINDS ME OF SOMETHING”
+
+
+As was revealed in their official animated short: DISCONNECTED, WX-78 was once a human inventor/engineer, who worked alongside Robert Wagstaff, likely as his colleague or assistant, collaborating on their two personal projects.
+
+
+WX-78’s former self worked tirelessly to find a way to turn themself into a machine, experimenting on dozens of animals, although with less than favorable results. Upon having their limbs replaced with mechanical ones, the creatures began to act very erratically, though WX-78’s former self chose to blame their organic parts, rather than the transplants.
+
+
+Eventually, the two scientists managed to complete WX-78’s current body, and with that, their human self successfully transferred their consciousness into it, being reborn as WX-78.
+
+
+Everything seemed fine at first, and they carried on, assisting Wagstaff with building his Interdimensional portal.
+
+
+…That is, of course, until they began to experience intense hallucinations, visions of their old self, as though they had never left that body to begin with.
+
+
+This had clearly shaken the robot, and to an extent, Wagstaff as well. However, WX-78 blamed the memory bank Wagstaff had constructed as the component to blame, and chose to scrap it entirely from future models.
+
+
+[Keep in mind, this short officially confirms that their empathy module was never actually a component that enabled them to feel emotions and empathy, instead it was the last remaining connection to their humanity, a reminder of who they used to be. WX-78 had always had emotions, no matter how hard they tried to suppress them. I’m bringing this up now, since I still see a lot of people misinterpreting what their “empathy module” actually was]
+
+
+Without Wagstaff’s permission, the automaton began creating more copies of their body. (Likely hoping they could persuade more people into giving up their organic forms and create an army of sentient automatons. )
+
+
+Unfortunately for them, Wagstaff discovered their plans prematurely. When he confronted them about this and told them that this has to stop, WX-78 threw what was presumably their “empathy module” at him, nearly striking him in the head and ultimately severing any ties they had left to their humanity.
+
+
+With that, Wagstaff had had enough. He destroyed the automaton copies over a bonfire, though he couldn’t bring himself to do the same with the original, so instead, he threw them into the very same portal they helped him create.
+
+
+It seems that for a while after arriving in the constant, WX-78’s memory had been wiped out, their memory drive/empathy module disabled but never truly gone.
+
+
+That is until their short, of course.
+
+
+And now, they’re forced to remember that they didn’t always used to be this perfect machine, but instead a hideous fleshbag, the one thing they hated the most.
+
+
+That event, alongside seeing Wagstaff reappear in the constant has left them with a set of very mixed emotions.
+
+
+Curious about that? Well, I’ll be discussing just that in—
+
+
+True self and personal struggles
+Everyone knows that WX-78 grapples with their identity and has a very complicated relationship with Robert Wagstaff, but what I’d also like to bring up here, is their intense loneliness, as well as their deep-rooted trust issues, which ultimately lead to them self-sabotaging their relationships and pushing others away.
+
+
+…And speaking of, their identity issues were actually always meant to be a part of their character.
+
+
+They were initially meant to be a parallel to Webber with being trapped in their robot body but it was eventually changed to them willingly seeking their transformation.
+
+
+Direct quote from JoeW: (…) The early concept for WX was “Are they a boy trapped in a robot body or are they a robot that thinks they are a boy trapped in a robot body?” And it was left open ended for fun. (…)
+
+
+That is to say that post talks more about how they were eventually officially labelled as non-binary (which is great, super awesome!! Diversity for the win ✨) but I specifically wanted to grab this line to emphasize my point.
+
+
+WX-78 was always meant to not quite know who they are. They want to be an evil machine, but having looked at their quotes, we know they’re not very good at it. They used to be human, or at least some small part of them was, but they’re ashamed, even horrified whenever they’re reminded of that time.
+
+
+They also trust no one. They mustn’t. After all, it was relying on others which had gotten them here in the first place. Wagstaff was supposed to condone their actions, or at least not interfere and simply turn a blind eye. But of course, he didn’t.
+
+
+They likely blame him for some of their own faults, using him as example of why they loathe humanity and why it shouldn’t be trusted. But how much of it is really him, and how much is their past life in general that stirred them away from trusting anyone?
+
+
+After all, one doesn’t just randomly turn evil and decide that all of humanity, nature and animals are obsolete and need to be ridden of because a single man ticked them off. No, their bitterness surely had to have been long stewing, finally tipping over when they turned into a machine and lost control of their emotions. They were likely a social outcast, shunned for their ideas and way of thinking, so they shifted all that anger and frustration into hating organic life as a whole.
+
+
+And then, they lost their memory…except feelings this intense don’t just go away. They don’t remember why they hate organic life, but they know that they do and that their hatred is justified.
+
+
+Then again, I can’t exactly tell you their exact reasons. What I can do, is show you is how suspicious WX-78 is of everyone around them, especially him.
+
+
+Soothing Tea- “THEY’RE TRYING TO MAKE ME LET DOWN MY GUARD… IT WILL NOT WORK!”
+
+
+Lunar Siphonator (Stage 3)- “DON’T TRUST HIM, SISTER. DON’T EVER TRUST HIM”
+
+
+Nautopilot Beacon- “THE SCIENTIST IS TAKING INSPIRATION FROM THE OLD MAN’S MACHINES. PROCESSING…”
+
+
+Teletransport Station & Portasol- “THIS DESIGN IS… FAMILIAR”
+
+
+Winter’s Feast Tree (burning)- “RECOMPENSE FOR YOUR HUMAN TREE LIES”
+
+
+Abandoned Junk- “HE JUST LEFT IT HERE. DISCARDED LIKE TRASH”
+
+
+(Mod Character) Attacker- “%s IS NOT TO BE TRUSTED”
+
+
+(Maxwell) Murderer- “THIS WILL BE YOUR LAST DECEIT, %s. DIE!”
+
+
+[Now that last one is especially interesting, considering WX-78 was not directly brought into the constant by Maxwell. Could he have tricked them some other time? Or are they perhaps referring to his general tendency to trick and deceive people?]
+
+
+WX-78 seems to be entirely convinced that their minions will one day turn on them. It’s not a matter of if, but when. Any slight mishap is treated as betrayal. They refuse to believe that they can ever trust any of them or be genuine friends with them.
+
+
+They don’t want anyone to get close to them, not after what happened with Wagstaff and presumably other people in their past.
+
+
+…But I don’t think they genuinely hate all organic life, rather, their past experiences of hurt and dissapointment have left them feeling paranoid and bitter.
+
+
+They are scared of getting hurt again, scared of opening up to others, of being vulnerable, only to be cast away, rejected or betrayed. (At least in their mind)
+
+
+Not many people may be aware of this, but WX-78 is in fact very, very lonely. They try to fill their need for companionship with machines, but it’s unlikely that any of them actually respond to them.
+
+
+They claim they hate all humans, yet most of their interactions with the other survivors are relatively cordial. And sure, usually they’re still being their jerky self, but they’re not always condescending. The can joke around like with their quotes for Woodie’s hardwood hat–
+
+
+Hardwood Hat- “HE DIDN’T CARVE IT WITH HIS TEETH. THIS IS PROGRESS”
+
+
+or Wolfgang’s icebell,
+
+
+Icebell- “TELL THEM TO "FREEZE” BEFORE YOU THROW IT. IT WILL BE HUMOROUS"
+
+
+They tease Webber with the spider shaped gummy,
+
+
+Gummy Spider- “SPIDER CHILD. WATCH ME CONSUME YOUR TINY BRETHREN”
+
+
+They respect Maxwell for his attempts to remain evil,
+
+
+Magician’s Top Hat- “EXCELLENT. IT LOOKS MUCH MORE EVIL NOW”
+
+
+Firestarter- “AT LEAST THERE’S STILL A BIT OF EVIL IN HIM”
+
+
+(as well as almost any pyromaniac character–)
+
+
+And of course, they value Winona for her work, after all, her profession is THE MOST NOBLE.
+
+
+Winona’s Spotlight- “THE OVERALLS FLESHLING HAS PROVED USEFUL”
+
+
+Winona’s Generator- “OVERALLS IS NOW MY LEAST HATED MINION”
+
+
+They still keep their distance, but at the same time, they allow themself to get comfortable enough to joke around and encourage, even compliment their minions when they do something that earns their approval.
+
+
+But they won’t let them get too close, never again…
+
+
+It is a shame though, as deep down, they wish they had someone they could trust and depend on, like…
+
+
+Iron Hulk (ribcage)- “FRIEND?”
+
+
+A real friend.
+
+
+For one, WX-78 is mean, loud and bossy, while Wormwood is super friendly, goofy and is also a huge people pleaser, which already draws a huge border over their relationship and the power dynamic between them quickly comes into question.
+
+
+After all…
+
+
+WX-78 is a machine who seemingly hates all organic life, while Wormwood, not only is the very definition of organic, he adores most if not all living creatures.
+WX-78 criticizes nearly everything and everyone, striving tirelessly for perfection, while Wormwood only hopes to be good enough.
+Wormwood tries to resolve most situations peacefully and respectfully, while WX-78 is unafraid to pick a fight to bolster their belief system.
+Wormwood hates most forms of violence, but WX-78 is an eager advocate of it.
+WX-78’s is very quick-witted and passive-agressive, often sounding outright threatening. Despite that, they are rarely able or willing to follow through with their threats. Wormwood, meanwhile, struggles with saying what he means, trying to come up with names for certaint things when an English term escapes him…(Or perhaps he does this intentionally and simply chooses to not call things by their actual names.) He’s very sweet and friendly, for the most part, wishing only for a friend, but he is also willing to defend his friends should anything genuinely threaten them.
+WX-78 tries to make themself as powerful as possible to compensate for their many weaknesses (including their former humanity, which is likely one of their main motivators for pursuing influence and power). Wormwood, however, seems to be naturally pretty powerful, and only growing more so, as time passes. Although he doesn’t seem to care about any of that, choosing a simple, peaceful life instead.
+WX-78 doesn’t let themself be pushed around easily, unless something is unavoidable (like a chore), but even then they might make a fuss. Wormwood, on the other hand, seems like the type who would constantly let people take advantage of him, whether it be with carrying things for them, assisting them in resource trips or even doing some of their base chores for them.
+WX-78 likes to overestimate themself a lot and tends to rush into danger unprepared, while Wormwood constantly underestimates himself, even though he could take down a powerful threat all on his own, if he set his mind on it. (As we now know from the recent video)
+Wormwood lets others think he’s dumb and harmless in fear of being seen as a monster, while all WX-78 wants is to be seen as fearsome and intimidating.
+Now, this one is moreso symbolic. But it’s interesting that Wormwood has an inorganic soul/heart possessing an organic body, while WX-78 has an organic “soul” with an inorganic body. That, alongside everything else I’ve listed makes them opposites in a beautifully fitting yin-yang way.
+…In any case, there’s a lot of differences between them, I could spend all day trying to remember every single one, but I think that’s enough to make a point.
+
+
+Differences between them are easy to point out, however…
+
+
+Similarities
+Might be a bit trickier…
+
+
+But don’t get me wrong, they’re still there, and there’s plenty of them actually!
+
+
+So why don’t you let me point some of them out?
+
+
+Both of them have a deep connection to the moon. Wormwood came from it, and while I don’t know what WX-78’s deal is, they clearly deeply adore it and want it to notice them.
+They’re both very lonely (as I’ve mentioned before) and are often rejected or “ignored” by the beings they try to befriend.
+Ironically enough, they could bring out the best in each other. (More on that in the final two segments)
+Both of them are putting up a front, except one is doing this to push others away and make them stop asking questions, while the other is desperately trying to fit in and not lose whatever friendship he has with them.
+WX-78 is not as evil as they seem, and Wormwood isn’t as good as he tries to seems either. Each of them have moments where they act out of character (as I mentioned before), where WX-78 can sometimes be soft and silly, Wormwood can be cold and somewhat apathetic. (And that’s okay! That just means they’re more than 1-dimensional tropes.)
+WX-78 adores bees and Wormwood’s existence as a flowering plant is centered around bees.
+Both of their stances seem to end up hurting them; Wormwood, because he doesn’t stand up for himself and his plant friends enough, and so let’s others do things that end up hurting them, and WX-78, because they keep jumping into situations they can’t handle and provoking things that could easily kill them.
+They often tend to analyze their surroundings and think of logical solution or explanation. (At least in the few instances WX isn’t being aggressive or reckless and Wormwood, when he isn’t pretending to be dumb)
+Both of them care deeply for their respective “family”, that being plants and machines. They actually act in a very similar way when they interact with them and are deeply distraught when their family is damaged or destroyed.
+Thanks to WX-78’s influence, Wormwood also started treating machines as friends and is trying to bond with them the same way WX-78 is.
+WX-78 tends to get very invested in things they claim they don’t care about, and that includes gardening. At first they complain a lot and criticize the plants for not growing fast enough, but soon, they grow very attached, and act surprisingly protective, when something threatens their garden. (Perhaps that was the real reason why they created their chorusbox circuit too)
+
+
+There aren’t many quotes where they directly address one another besides their general character interactions + reaction to each other’s special items, however Wormwood does have 3 additional quotes where he mentions WX-78, and all 3 of them are very positive.
+
+
+There’s the one for the nautopilot where he acts concerned for their well-being:
+
+
+Nautopilot- “Robot friend doesn’t like Pull Rock”
+
+
+And then there are…these two quotes.
+
+
+W.A.R.B.I.S. Head Gear- “Just like robot friend!”
+
+
+W.A.R.B.I.S. Armor- “Be strong like robot friend!”
+
+
+This clearly shows that he cares for them and admires them deeply. I’d also like to point out he barely, if at all mentions the other survivors outside of direct interactions with them or (you guessed it) commenting on their special items.
+
+
+… It’s pretty intriguing, to say the least, and implies that WX-78 might be more important to him, in some way.
+
+
+WX-78’s quotes regarding Wormwood aren’t nearly as flattering, maybe except when he’s an attacker, which I mentioned above, kinda also the reviver quote, as well as what might even be concern with the firestarter quote (at least compared to their quotes for other characters commiting arson) :
+
+
+Firestarter- “DOES THE ORGANIC NOT KNOW HE IS FLAMMABLE?”
+
+
+However…there is one unimplemented quote about a special variation of the brightshade bomb Wormwood was supposed to be able to make, before his skill tree was finalized. (You can still find it in the files, as well as the dst wiki.)
+
+
+BOMB_LUNARPLANT_WORMWOOD- “MY PLANT MINION IS PROVING HIMSELF TO BE VERY USEFUL”
+
+
+(Klei, I I beg you re-add that item I need them to say this to him officially)
+
+
+And there’s also this quote:
+
+
+Green Gem- “PRESSURE AND IMPURITIES HAVE PRODUCED PLEASING PERFECTION”
+
+
+…Which while not directly referring to Wormwood, does suggest that they might find his gem very appealing.
+
+
+It seems, that overall, they have a rather positive opinion of him, save for being disgusted with his craft and his “POOP HANDS”.
+
+
+The new animation “Nature” also managed to shed some light on their relationship (I’ve actually made another post where I analyzed the whole thing, if you wanna check it out~), –especially WX-78’s opinion on Wormwood.
+
+
+They are clearly shown to be friends in some way, or (at the very least) Wormwood willingly chose to tag along with them and WX-78 didn’t seem to mind his company either.
+
+
+Though midway through the video, Wormwood goes against his own morals and hurts other plant creatures to save WX-78’s life. He takes care of the unconscious automaton, cooks for them and moves them to a safer area. He still feels very guilty for what he did, so he goes to sit on a nearby hill to stare at the moon and clear his head.
+
+
+After WX-78 wakes up, they realize what Wormwood did and seem to gain a new respect for him. There’s this frame where they look at him sitting on that hill, and they just seem so overcome with emotions… They are even willing to set their pride aside, if only for a moment, just to spend some time with him.
+
+
+Even though they go right back to where they started, it’s clear, that Wormwood managed to affect the automaton in a way that no one has ever done before. It was enough for them to reveal to him their softer side, and perhaps…even consider him as more than just a minion. Perhaps that’s why they freaked out so much. After all, they weren’t supposed to get close to anyone again, let alone someone like him.
+
+
+I’d also like to explore their relationship outside the video in greater detail, and give my own two cents about it.
+
+
+Personally, I’ve always imagined their dynamic to be very similar to that of Pinky and the Brain. Where one’s a polite, goofy henchmen and the other is this bossy, self-proclaimed genius who wants to take over the world (Sounds kinda familiar, doesn’t it?). If you haven’t watched the show, or assume things based on a few clips, you’d think they’d be toxic or abusive, but just like the two mice, there’s much more to them than that.
+
+
+Especially considering the evil genius character happens to be a huge loser who ends up hurting themselves with their schemes more often than not, and most of their plans tend to fail anyway, but they’re just too stubborn to give up or have it any other way. Meanwhile, the “silly sidekick” is ironically the one with good ideas, who can be strong, competent, and very intelligent when he wants to be, but he still chooses to remain a silly sidekick, never actually wanting to take charge, even though he easily could.
+
+
+Both care deeply for the other and wouldn’t replace or abandon each other (at least not permanently).
+
+
+So what would initially start off as a classic “master and henchman” dynamic would quickly grow into a strong, mutual bond, where both parties are equals, who are very codependent on one another, and are willing to risk a lot to protect the other.
+
+
+Wormwood, I feel like would be very dedicated and supportive of WX-78, as long as their ideas wouldn’t be too violent, while WX-78 would initially be very annoyed by Wormwood’s overly kind nature and tendency to get distracted (plus being a stinky plant), but eventually, they would grow begrudgingly fond and protective of him, becoming upset if one of the other survivors (or creatures) mocked him or tried to take advantage of him.
+
+
+Balance of character
+But how would they benefit from this relationship? Could either of them really change their way?
+
+
+I know that some ships are just for fun, but these two mean a lot to me, not only because they’re both my favorites, but also because of how beautiful their relationship is in the grand scheme of things. It’s not about being perfectly healthy (yeah, no, that’d be pretty boring), but about being very mutually beneficial. Symbiotic, one could say.
+
+
+And how exactly? Sure, Wormwood is a sweetheart and may help WX-78 come to terms with their emotions and maybe urge them to become slightly less evil, but how would WX-78 make Wormwood better?
+
+
+Well…
+
+
+You’d think that WX-78 would want to corrupt him or make him evil, but I feel like their biggest priority would be for Wormwood to finally start respecting himself and setting some actual boundaries.
+
+
+As we know, Wormwood tends to get pushed around quite a lot by the other survivors, and while WX-78 is very bossy themself, they also seem to be the kind of person who’d take offense from their favorite minion being treated like this.
+
+
+“But wouldn’t them falling in love with each other make them (especially WX-78) OOC?”
+
+
+Not necessarily. WX-78 doesn’t have to change that much in hindsight. They can still be their assholey self who yells and threatens people, but also allow themself to be softer and more affectionate from time to time.
+
+
+Wormwood also wouldn’t become some “servant” or turn evil. He might, however, lose some of his saintly patience, but that’s inevitable when it comes to dealing with WX. ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯
+
+
+But I don’t think he takes what they say to heart; their actions matter more than words ever could. And while few and far in-between, they are able to show consideration and even kindness, which no murder spree will simply erase.
+
+
+Maybe he sees himself in them in some way; perhaps that’s why he gravitated to them and seems to cherish them so much. They’re just like him, if he gave up on the world around him and started to resent it instead, reserving all their affection solely for their faction. I feel like he sympathizes with them to an extent. Plus, who knows, he might also just like the way they look, all shiny and stuff. 
+
+
+I feel like he could also teach them how to be more patient and not rush blindly into danger. While WX-78 could teach him to argue back more often and prioritize his own well-being over that of his friends.
+
+
+Both of them could learn to appreciate each other’s families as well. (Wormwood already started seeing some machines as friends, while WX-78 is slowly but surely growing to like certain plants as well. )
+
+
+But ultimately, it’s about each of them learning to understand each other’s perspective, filling in their loneliness, and choosing to grow as people because of their love and admiration for each other.
