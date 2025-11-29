@@ -1,0 +1,74 @@
+[
+    {
+        "id": "intro",
+        "section": "intro",
+        "title": "WX-78",
+        "subtitle": "The Ghost in the Machine",
+        "text": "System initialized. Loading empathy module... ERROR: DATA PATH NOT FOUND.<br><br>Is WX-78 truly a soulless automaton, or a broken human hiding behind a metal shell?",
+        "theme": "dark",
+        "alignment": "center"
+    },
+    {
+        "id": "origin",
+        "section": "origin",
+        "title": "Origin: Disconnected",
+        "text": "WX-78 was not always a machine. They were an inventor, a colleague of Robert Wagstaff, who sought to transcend the weakness of flesh.<br><br>The experiment was a [RESOUNDING SUCCESS], but the cost was their humanity. Now, they are haunted by memories they tried to delete.",
+        "quote": "TOO LATE TOO LATE TOO LATE",
+        "theme": "glitch",
+        "alignment": "left"
+    },
+    {
+        "id": "facade",
+        "section": "analysis",
+        "title": "The Performance of Evil",
+        "text": "WX-78 projects an image of a ruthless destroyer. They claim to hate all living matter, constantly referring to organics as 'filthy' or 'meat'.<br><br>But this is a facade. A performance to distance themselves from what they once were.",
+        "quote": "I WILL DESTROY YOU.",
+        "theme": "dark",
+        "alignment": "right"
+    },
+    {
+        "id": "hypocrisy",
+        "section": "analysis",
+        "title": "System Hypocrisy",
+        "text": "For a robot who claims to hate organics, WX-78 is obsessed with mimicking them. They assign familial roles to machines (Mother Science Machine, Brother Rainometer).<br><br>They crave validation, wanting to be the subject of art and the leader of 'minions'. They are vain, insecure, and deeply human in their flaws.",
+        "quote": "THERE IS A HANDSOME ROBOT TRAPPED IN THIS LOOK-DEVICE!",
+        "theme": "light",
+        "alignment": "left"
+    },
+    {
+        "id": "loneliness",
+        "section": "analysis",
+        "title": "The Solitude",
+        "text": "Beneath the bravado lies a profound loneliness. WX-78 pushes others away out of paranoia and trust issues stemming from their past with Wagstaff.<br><br>They are terrified of vulnerability, yet they constantly seek connection, even if they frame it as 'enslavement' or 'minionhood'.",
+        "quote": "FRIEND?",
+        "theme": "dark",
+        "alignment": "center"
+    },
+    {
+        "id": "soft_spots",
+        "section": "analysis",
+        "title": "Glitches in the Programming",
+        "text": "The 'Empathy Module' was never just a component; it was a symbol of their suppressed heart. WX-78 shows genuine fondness for 'mindless drones' (bees) and finds beauty in the inorganic.<br><br>But they also slip up. They find flowers beautiful. They protect their garden. The mask slips.",
+        "quote": "IT IS A BEAUTIFUL EXAMPLE OF EFFICIENCY.",
+        "theme": "nature-tech",
+        "alignment": "right"
+    },
+    {
+        "id": "connection",
+        "section": "analysis",
+        "title": "Capacity for Connection",
+        "text": "Their relationship with entities like Wormwood proves that WX-78 is capable of genuine bond.<br><br>It is not about the other person; it is about WX-78 allowing themselves to be vulnerable, to accept care, and to protect something other than themselves. It is the ultimate proof that the 'soul' remains.",
+        "quote": "PRESSURE AND IMPURITIES HAVE PRODUCED PLEASING PERFECTION.",
+        "theme": "nature-tech",
+        "alignment": "left"
+    },
+    {
+        "id": "conclusion",
+        "section": "outro",
+        "title": "Conclusion",
+        "text": "WX-78 is a tragedy of their own making, a being running from their own nature.<br><br>They are not a monster. They are a defensive, lonely, and broken consciousness trying to survive in a world that reminds them of everything they lost.",
+        "quote": "SYSTEMS NOMINAL.",
+        "theme": "dark",
+        "alignment": "center"
+    }
+]
