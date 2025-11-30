@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Quote
             if (item.quote) {
                 const quote = document.createElement('blockquote');
-                quote.className = 'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-mono text-xl mt-6';
+                quote.className = 'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-BelisaPlumilla text-xl mt-6';
                 quote.innerHTML = `"${item.quote}"`;
                 contentBox.appendChild(quote);
             }
@@ -99,29 +99,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateVisuals(theme, id) {
         // Reset classes and styles
-        visualContainer.className = 'sticky top-0 h-screen flex flex-col items-center justify-center z-0 transition-all duration-700 ease-in-out bg-cover bg-center';
-        visualContainer.style.backgroundImage = 'none';
+        visualContainer.className = 'sticky top-0 h-screen flex flex-col items-center justify-center z-0 transition-colors duration-700 ease-in-out bg-cover bg-center';
         visualContent.innerHTML = ''; // Clear previous content
 
         let bgClass = 'bg-gray-900';
         let contentHtml = '';
 
-        // Map IDs to Background Images
-        const bgImages = {
-            'intro': "WX-78'S_COMPENDIUM.jpg",
-            'origin': "WX-78_VS_WOODROW.png",
-            'facade': "WX-78_MURDER_SPREE.gif",
-            'hypocrisy': "WXWOOD_CANON_(IN MY DREAMS).png",
-            'loneliness': "WX-78_AND_JIMMY_BG.png"
+        // Image Mapping
+        const imageMap = {
+            'intro': "WX-78_AND_JIMMY_BG.png",
+            'origin': 'WX-78_WOODROW_FLASHBACKS.gif',
+            'facade': 'WX-78_MURDER_SPREE.jpg',
+            'hypocrisy': 'WXWOOD_CANON.jpg',
+            'loneliness': 'WX-78_AND_JIMMY_BG.png',
+            'soft_spots': 'WX-78_EMPATHY_MODULE_REMOVAL.gif',
+            'connection': 'WXWOOD_FARMING.PNG',
+            'conclusion': 'WXWOOD_CANON_HAPPY_ENDING.jpg'
         };
 
-        if (bgImages[id]) {
-            visualContainer.style.backgroundImage = `url('${bgImages[id]}')`;
+        if (imageMap[id]) {
+            visualContainer.style.backgroundImage = `url("${imageMap[id]}")`;
             // Add an overlay to ensure text readability if needed
-            // contentHtml = `<div class="text-9xl font-black text-white opacity-80 animate-pulse mix-blend-overlay">WX-78</div>`;
-            bgClass = '';
+            contentHtml = `<div class="text-9xl font-black text-white opacity-80 animate-pulse mix-blend-overlay">WX-78</div>`;
+            bgClass = ''; // Clear bg class if image is present
         } else {
-            // Fallback to themes if no specific image
+            visualContainer.style.backgroundImage = 'none'; // Clear image if falling back to theme
+            // Fallback to themes if no image is mapped (though all should be mapped now)
             switch (theme) {
                 case 'glitch':
                     bgClass = 'bg-red-900';
