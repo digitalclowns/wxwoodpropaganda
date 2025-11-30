@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Title
             if (item.title) {
                 const title = document.createElement('h2');
-                title.className = 'text-5xl font-DontStarve mb-6 text-purple-400 uppercase tracking-widest';
+                title.className = 'text-5xl font-DontStarve mb-6 text-[#bb8354] uppercase tracking-widest';
                 title.innerText = item.title;
                 contentBox.appendChild(title);
             }
@@ -106,15 +106,22 @@ document.addEventListener('DOMContentLoaded', () => {
         let bgClass = 'bg-gray-900';
         let contentHtml = '';
 
-        // Handle specific IDs for custom backgrounds
-        if (id === 'intro') {
-            visualContainer.style.backgroundImage = "url('WX-78_AND_JIMMY_BG.png')";
-            // Add an overlay to ensure text readability if needed, or just let the image shine
-            // For now, we'll keep the text but maybe adjust opacity/style
-            contentHtml = `<div class="text-9xl font-black text-white opacity-80 animate-pulse mix-blend-overlay">WX-78</div>`;
-            // Remove bgClass since we have an image
+        // Map IDs to Background Images
+        const bgImages = {
+            'intro': "WX-78'S_COMPENDIUM.jpg",
+            'origin': "WX-78_VS_WOODROW.png",
+            'facade': "WX-78_MURDER_SPREE.gif",
+            'hypocrisy': "WXWOOD_CANON_(IN MY DREAMS).png",
+            'loneliness': "WX-78_AND_JIMMY_BG.png"
+        };
+
+        if (bgImages[id]) {
+            visualContainer.style.backgroundImage = `url('${bgImages[id]}')`;
+            // Add an overlay to ensure text readability if needed
+            // contentHtml = `<div class="text-9xl font-black text-white opacity-80 animate-pulse mix-blend-overlay">WX-78</div>`;
             bgClass = '';
         } else {
+            // Fallback to themes if no specific image
             switch (theme) {
                 case 'glitch':
                     bgClass = 'bg-red-900';
