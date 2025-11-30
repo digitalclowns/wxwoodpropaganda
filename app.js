@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Title
             if (item.title) {
                 const title = document.createElement('h2');
-                title.className = 'text-3xl font-bold mb-4 text-purple-400 uppercase tracking-widest';
+                title.className = 'text-2xl font-DontStarve mb-4 text-purple-400 uppercase tracking-widest';
                 title.innerText = item.title;
                 contentBox.appendChild(title);
             }

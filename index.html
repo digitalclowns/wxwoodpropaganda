@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title style="font-family: DontStarve;">WX-78: The Soulless Automaton?</title>
+    <title>WX-78: The Soulless Automaton?</title>
     <meta name="description" content="A scrollytelling exploration of WX-78 from Don't Starve.">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/scrollama"></script>
     <style>
         /* Custom scrollbar for webkit */
         ::-webkit-scrollbar {
-            width: 8px;
+            width: 10px;
         }
+
         ::-webkit-scrollbar-track {
-            background: #1a202c; 
+            background: #1a202c;
         }
+
         ::-webkit-scrollbar-thumb {
-            background: #4a5568; 
+            background: #4a5568;
             border-radius: 4px;
         }
+
         ::-webkit-scrollbar-thumb:hover {
-            background: #718096; 
+            background: #718096;
         }
-        
+
         /* Glitch effect utility classes */
         .glitch-text {
             position: relative;
         }
+
         .glitch-text::before,
         .glitch-text::after {
             content: attr(data-text);
@@ -36,57 +41,112 @@
             width: 100%;
             height: 100%;
         }
+
         .glitch-text::before {
             left: 2px;
             text-shadow: -1px 0 red;
             clip: rect(24px, 550px, 90px, 0);
             animation: glitch-anim-2 3s infinite linear alternate-reverse;
         }
+
         .glitch-text::after {
             left: -2px;
             text-shadow: -1px 0 blue;
             clip: rect(85px, 550px, 140px, 0);
             animation: glitch-anim-1 2.5s infinite linear alternate-reverse;
         }
-        @keyframes glitch-anim-1 {
-            0% { clip: rect(20px, 9999px, 15px, 0); }
-            20% { clip: rect(60px, 9999px, 70px, 0); }
-            40% { clip: rect(20px, 9999px, 15px, 0); }
-            60% { clip: rect(80px, 9999px, 50px, 0); }
-            80% { clip: rect(10px, 9999px, 100px, 0); }
-            100% { clip: rect(40px, 9999px, 90px, 0); }
-        }
-        @keyframes glitch-anim-2 {
-            0% { clip: rect(10px, 9999px, 80px, 0); }
-            20% { clip: rect(80px, 9999px, 10px, 0); }
-            40% { clip: rect(30px, 9999px, 50px, 0); }
-            60% { clip: rect(70px, 9999px, 20px, 0); }
-            80% { clip: rect(20px, 9999px, 60px, 0); }
-            100% { clip: rect(50px, 9999px, 30px, 0); }
-        }
-        @font-face {
-  font-family: DontStarve;
-  src: url(bigdonstarve.ttf);
-}
 
-div {
-  font-family: DontStarve;
-}
+        @keyframes glitch-anim-1 {
+            0% {
+                clip: rect(20px, 9999px, 15px, 0);
+            }
+
+            20% {
+                clip: rect(60px, 9999px, 70px, 0);
+            }
+
+            40% {
+                clip: rect(20px, 9999px, 15px, 0);
+            }
+
+            60% {
+                clip: rect(80px, 9999px, 50px, 0);
+            }
+
+            80% {
+                clip: rect(10px, 9999px, 100px, 0);
+            }
+
+            100% {
+                clip: rect(40px, 9999px, 90px, 0);
+            }
+        }
+
+        @keyframes glitch-anim-2 {
+            0% {
+                clip: rect(10px, 9999px, 80px, 0);
+            }
+
+            20% {
+                clip: rect(80px, 9999px, 10px, 0);
+            }
+
+            40% {
+                clip: rect(30px, 9999px, 50px, 0);
+            }
+
+            60% {
+                clip: rect(70px, 9999px, 20px, 0);
+            }
+
+            80% {
+                clip: rect(20px, 9999px, 60px, 0);
+            }
+
+            100% {
+                clip: rect(50px, 9999px, 30px, 0);
+            }
+        }
+
+        @font-face {
+            font-family: 'DontStarve';
+            src: url('bigdonstarve.ttf');
+        }
+
+        @font-face {
+            font-family: 'BelisaPlumilla';
+            src: url('belisa_plumilla.ttf');
+        }
+
+        .font-DontStarve {
+            font-family: 'DontStarve', sans-serif;
+        }
+
+        .font-BelisaPlumilla {
+            font-family: 'BelisaPlumilla', sans-serif;
+        }
+
+        body {
+            font-family: 'BelisaPlumilla', sans-serif;
+        }
     </style>
 
-<audio autoplay loop>
-  <source src="DST OST - WX-78 Main Menu Theme Extended.mp3" type="audio/mp3">
-</audio>
+    <audio autoplay loop>
+        <source src="DST OST - WX-78 Main Menu Theme Extended.mp3" type="audio/mp3">
+    </audio>
 </head>
-<body class="bg-gray-900 text-gray-100 font-sans antialiased overflow-x-hidden">
+
+<body class="bg-gray-900 text-gray-100 font-BelisaPlumilla antialiased overflow-x-hidden">
 
     <header class="fixed top-0 left-0 w-full z-50 p-6 mix-blend-difference">
-        <h1 class="text-2xl font-bold tracking-widest uppercase text-white">WX-78 Project</h1>
+        <h1 class="text-4xl tracking-widest uppercase text-white font-DontStarve">WX-78: A character analysis</h1>
     </header>
 
     <main id="scrolly" class="relative w-full">
         <!-- Sticky Graphic -->
-        <figure class="sticky top-0 h-screen flex flex-col items-center justify-center z-0 transition-colors duration-700 ease-in-out" id="visual-container">
+        <figure
+            class="sticky top-0 h-screen flex flex-col items-center justify-center z-0 transition-colors duration-700 ease-in-out"
+            id="visual-container">
             <div id="visual-content" class="text-center p-8 max-w-4xl transition-opacity duration-500 opacity-100">
                 <!-- Dynamic content will be injected here -->
                 <div class="text-9xl font-black opacity-10 animate-pulse">WX-78</div>
@@ -106,4 +166,5 @@ div {
 
     <script src="app.js"></script>
 </body>
+
 </html>
