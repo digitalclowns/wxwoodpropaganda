@@ -1,4 +1,4 @@
-# wxwoodpropagandathesequel
+# Wxwood Propaganda
 A  HTML website dedicated to make a character analysis of WX-78, one of my personal favorite characters (IF not THE favorite, only surpassed by Webber) from the games Don't Starve and Don't Starve Together (and spread the wxwood propaganda/agenda in the process).
 <br>
 The art used for this website was made by [Klei Entertainment](https://www.klei.com) and [Waokevale](https://waokevale.tumblr.com).
