@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Title
             if (item.title) {
                 const title = document.createElement('h2');
-                title.className = 'text-2xl font-DontStarve mb-4 text-purple-400 uppercase tracking-widest';
+                title.className = 'text-5xl font-DontStarve mb-6 text-purple-400 uppercase tracking-widest';
                 title.innerText = item.title;
                 contentBox.appendChild(title);
             }
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Subtitle
             if (item.subtitle) {
                 const subtitle = document.createElement('h3');
-                subtitle.className = 'text-xl font-semibold mb-6 text-gray-400';
+                subtitle.className = 'text-3xl font-semibold mb-8 text-gray-400';
                 subtitle.innerText = item.subtitle;
                 contentBox.appendChild(subtitle);
             }
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Text
             if (item.text) {
                 const text = document.createElement('p');
-                text.className = 'text-lg leading-relaxed text-gray-300 mb-6';
+                text.className = 'text-2xl leading-relaxed text-gray-300 mb-8';
                 text.innerHTML = item.text; // Allow HTML for <br>
                 contentBox.appendChild(text);
             }
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Quote
             if (item.quote) {
                 const quote = document.createElement('blockquote');
-                quote.className = 'border-l-4 border-purple-500 pl-4 italic text-gray-400 font-mono text-sm mt-4';
+                quote.className = 'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-mono text-xl mt-6';
                 quote.innerHTML = `"${item.quote}"`;
                 contentBox.appendChild(quote);
             }
@@ -98,35 +98,46 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateVisuals(theme, id) {
-        // Reset classes
-        visualContainer.className = 'sticky top-0 h-screen flex flex-col items-center justify-center z-0 transition-colors duration-700 ease-in-out';
+        // Reset classes and styles
+        visualContainer.className = 'sticky top-0 h-screen flex flex-col items-center justify-center z-0 transition-all duration-700 ease-in-out bg-cover bg-center';
+        visualContainer.style.backgroundImage = 'none';
         visualContent.innerHTML = ''; // Clear previous content
 
         let bgClass = 'bg-gray-900';
         let contentHtml = '';
 
-        switch (theme) {
-            case 'glitch':
-                bgClass = 'bg-red-900';
-                contentHtml = `<div class="text-9xl font-black text-white opacity-20 glitch-text" data-text="ERROR">ERROR</div>`;
-                break;
-            case 'nature-tech':
-                bgClass = 'bg-green-900';
-                contentHtml = `<div class="text-6xl font-bold text-green-300 opacity-30">ORGANIC<br>SYMBIOSE</div>`;
-                break;
-            case 'light':
-                bgClass = 'bg-gray-200';
-                visualContainer.classList.add('text-gray-900'); // Invert text color for light bg
-                contentHtml = `<div class="text-6xl font-bold text-gray-800 opacity-20">SYSTEM<br>ANOMALY</div>`;
-                break;
-            case 'dark':
-            default:
-                bgClass = 'bg-gray-900';
-                contentHtml = `<div class="text-9xl font-black text-white opacity-10 animate-pulse">WX-78</div>`;
-                break;
+        // Handle specific IDs for custom backgrounds
+        if (id === 'intro') {
+            visualContainer.style.backgroundImage = "url('WX-78_AND_JIMMY_BG.png')";
+            // Add an overlay to ensure text readability if needed, or just let the image shine
+            // For now, we'll keep the text but maybe adjust opacity/style
+            contentHtml = `<div class="text-9xl font-black text-white opacity-80 animate-pulse mix-blend-overlay">WX-78</div>`;
+            // Remove bgClass since we have an image
+            bgClass = '';
+        } else {
+            switch (theme) {
+                case 'glitch':
+                    bgClass = 'bg-red-900';
+                    contentHtml = `<div class="text-9xl font-black text-white opacity-20 glitch-text" data-text="ERROR">ERROR</div>`;
+                    break;
+                case 'nature-tech':
+                    bgClass = 'bg-green-900';
+                    contentHtml = `<div class="text-6xl font-bold text-green-300 opacity-30">ORGANIC<br>SYMBIOSE</div>`;
+                    break;
+                case 'light':
+                    bgClass = 'bg-gray-200';
+                    visualContainer.classList.add('text-gray-900'); // Invert text color for light bg
+                    contentHtml = `<div class="text-6xl font-bold text-gray-800 opacity-20">SYSTEM<br>ANOMALY</div>`;
+                    break;
+                case 'dark':
+                default:
+                    bgClass = 'bg-gray-900';
+                    contentHtml = `<div class="text-9xl font-black text-white opacity-10 animate-pulse">WX-78</div>`;
+                    break;
+            }
         }
 
-        visualContainer.classList.add(bgClass);
+        if (bgClass) visualContainer.classList.add(bgClass);
         visualContent.innerHTML = contentHtml;
     }
 });
