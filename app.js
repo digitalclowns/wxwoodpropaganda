@@ -127,10 +127,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Custom text overlay based on theme - with increased visibility
         switch (theme) {
             case 'glitch':
-                contentHtml = `<div class="text-7xl font-black text-white opacity-70 px-8">01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101 00100000 01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101 00100000 01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101</div>`;
+                contentHtml = `<div class="text-6xl font-black text-white opacity-70 px-8">01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101 00100000 01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101 00100000 01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101</div>`;
                 break;
             case 'nature-tech':
-                contentHtml = `<div class="text-6xl font-bold opacity-90 px-8" style="color: #073311ff;">EMPATHY MODULE... RESPONDING?</div>`;
+                contentHtml = `<div class="text-6xl font-bold opacity-90 px-8" style="color: #000000ff;">EMPATHY MODULE... RESPONDING?</div>`;
                 break;
             case 'light':
                 contentHtml = `<div class="text-6xl font-bold text-white opacity-70 px-8">A CERTAIN FAMILIAL AFFECTION FOR MACHINES</div>`;
@@ -140,10 +140,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 contentHtml = `<div class="text-9xl font-black text-white opacity-70">WX-78</div>`;
                 break;
             case 'conclusion':
-                contentHtml = `<div class="text-6xl font-black text-white opacity-70">completely unrelated to this analysis (not really) but Wxwood are totally gay for each other, it's canon, my dad works for Klei /j</div>`;
+                contentHtml = `<div class="text-6xl font-bold opacity-90 px-8" style="color: #000000ff;">completely unrelated to this analysis (not really) but Wxwood are totally gay for each other, it's canon, my dad works for Klei /j</div>`;
                 break;
             case 'trust-and-daddy-issues-they-just-like-me-fr':
-                contentHtml = `<div class="text-6xl font-black text-white opacity-70">this robot has trust and daddy issues, they're just like me fr</div>`;
+                contentHtml = `<div class="text-6xl font-black text-white opacity-70">this robot has trust and daddy issues they're just like me fr</div>`;
                 break;
         }
 
