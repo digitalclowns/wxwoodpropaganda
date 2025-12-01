@@ -3,7 +3,7 @@
         "id": "intro",
         "section": "intro",
         "title": "WX-78",
-        "subtitle": "The dilemma of the weakness of Humanity vs. the strength of Machinery",
+        "subtitle": "The Soulless Automaton... or maybe not?",
         "text": "System initialized. Loading empathy module... ERROR: DATA PATH NOT FOUND.<br><br>Is WX-78 truly a soulless automaton, or a broken human hiding behind a metal shell?",
         "theme": "dark",
         "alignment": "center"
@@ -30,7 +30,7 @@
         "id": "hypocrisy",
         "section": "analysis",
         "title": "System Hypocrisy",
-        "text": "For a robot who claims to hate organics, WX-78 is obsessed with mimicking them. They assign familial roles to machines (Mother Science Machine, Brother Rainometer).<br><br>They crave validation, wanting to be the subject of art and the leader of 'minions'. They are vain, insecure, and deeply human in their flaws.",
+        "text": "For a robot who claims to hate organics, WX-78 is obsessed with mimicking them. They assign familial roles to machines (Mother Science Machine, Brother Rainometer). They even give their Bio Scanalyzer a nickname - calling the J1-M1 unit 'Jimmy'.<br><br>They crave validation, wanting to be the subject of art and the leader of 'minions'. They are vain, insecure, and deeply human in their flaws.",
         "quote": "THERE IS A HANDSOME ROBOT TRAPPED IN THIS LOOK-DEVICE!",
         "theme": "light",
         "alignment": "left"
@@ -41,7 +41,7 @@
         "title": "The Solitude",
         "text": "Beneath the bravado lies a profound loneliness. WX-78 pushes others away out of paranoia and trust issues stemming from their past with Wagstaff.<br><br>They are terrified of vulnerability, yet they constantly seek connection, even if they frame it as 'enslavement' or 'minionhood'.",
         "quote": "FRIEND?",
-        "theme": "dark",
+        "theme": "trust-and-daddy-issues-they-just-like-me-fr",
         "alignment": "center"
     },
     {
@@ -68,7 +68,7 @@
         "title": "Conclusion",
         "text": "WX-78 is a tragedy of their own making, a being running from their own nature.<br><br>They are not a monster. They are a defensive, lonely, and broken consciousness trying to survive in a world that reminds them of everything they lost.",
         "quote": "SYSTEMS NOMINAL.",
-        "theme": "dark",
+        "theme": "conclusion",
         "alignment": "center"
     }
 ]
