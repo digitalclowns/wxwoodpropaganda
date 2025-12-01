@@ -145,6 +145,9 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'trust-and-daddy-issues-they-just-like-me-fr':
                 contentHtml = `<div class="text-6xl font-black text-white opacity-70">this robot has trust and daddy issues they're just like me fr</div>`;
                 break;
+            case 'evil?':
+                contentHtml = `<div class="text-6xl font-black text-white opacity-70">The real WX-78 or just a facade?</div>`;
+                break;
         }
 
         if (bgClass) visualContainer.classList.add(bgClass);

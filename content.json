@@ -11,7 +11,7 @@
     {
         "id": "origin",
         "section": "origin",
-        "title": "Who are they?: WX-78's origins",
+        "title": "Who are they?:\nWX-78's origins",
         "text": "The first thing we ought to know is that WX-78 was not always the automaton we know (and love) today. As seen in the official animated short <a href='https://www.youtube.com/watch?v=UDfzBh_p2YM&pp=ugMICgJlcxABGAHKBQ53eC03OCBhbmltYXRpYw%3D%3D' style='color: #bb8354; text-decoration: underline;' target='_blank'>\"Disconnected\"</a> they were an inventor -presumably named Woodrow as the <a href='https://dontstarve.wiki.gg/images/thumb/WX-78_Sound_File_Woodrow_Prefixes.png/800px-WX-78_Sound_File_Woodrow_Prefixes.png?64f33d' style='color: #bb8354; text-decoration: underline;' target='_blank'>names in the audio files in the game</a> allow us to infer- once, a colleague of Robert Wagstaff with a peculiar dedication to experimenting in the field of mechanical prosthetics- one can assume this was in the hopes of developing what later would become their biggest (and dare I say most special) project: a complete robotic body that would act as a replacement for their own human body.<br><br>Our scientist would take notes and notice the animals they had modified, giving them mechanical prosthetic limbs; as a result these animals would react erratically and/or extremely irritable after the transplants. Yet our researcher dismissed this as being nothing but the organic component of the critters interfering. They persisted on their research with (most likely) the help of Wagstaff. After all, the scientist yearned to transcend the weakness of their own flesh by becoming metal- a soulless automaton, a machine devoid of the imperfections and weakness of the human condition.<br><br>The experiment was, quoting their official Compendium entry, a \"[RESOUNDING SUCCESS]\"... or so they thought at first. <br><br> As we get to learn later on in the short, WX-78 kept working alongside Wagstaff to create a portal to The Constant (something that we will not discuss here, since this is another can of worms and it's mostly Wagstaff related), but as WX-78 worked, they kept getting glimpses of human hands- glimpses of their old human self. But how could this be? They were supposed to be perfect now. Without the weakness of their human flesh, WX-78 should be able to work without any complications. <br><br> Once again, they blamed the organic component -this time their own- for the seeming imperfection in what should have been the perfect automaton body.",
         "quote": "TOO LATE TOO LATE TOO LATE",
         "theme": "glitch",
@@ -23,7 +23,7 @@
         "title": "The Performance of Evil",
         "text": "WX-78 projects an image of a ruthless destroyer. They claim to hate all living matter, constantly referring to organics as 'filthy' or 'meat'.<br><br>But this is a facade. A performance to distance themselves from what they once were.",
         "quote": "I WILL DESTROY YOU.",
-        "theme": "dark",
+        "theme": "evil?",
         "alignment": "right"
     },
     {
