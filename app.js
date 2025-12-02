@@ -16,7 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderSteps(data) {
         data.forEach((item, index) => {
             const step = document.createElement('div');
-            step.classList.add('step', 'min-h-screen', 'flex', 'items-center', 'justify-center', 'p-8', 'transition-opacity', 'duration-500');
+            step.classList.add(
+                'step', 'min-h-screen', 'flex', 'items-center',
+                'justify-center', 'p-8', 'transition-opacity', 'duration-500'
+            );
             step.setAttribute('data-step', index);
             step.setAttribute('data-theme', item.theme);
             step.setAttribute('data-id', item.id);
@@ -30,16 +33,18 @@ document.addEventListener('DOMContentLoaded', () => {
             // Content Box
             const contentBox = document.createElement('div');
             contentBox.classList.add(
-                'bg-black', 'bg-opacity-80', 'backdrop-blur-md', 'border', 'border-gray-700',
-                'p-8', 'rounded-lg', 'shadow-2xl', 'max-w-xl',
-                'transform', 'transition-transform', 'duration-500', 'hover:scale-105'
+                'bg-black', 'bg-opacity-80', 'backdrop-blur-md',
+                'border', 'border-gray-700', 'p-8', 'rounded-lg',
+                'shadow-2xl', 'max-w-xl', 'transform',
+                'transition-transform', 'duration-500', 'hover:scale-105'
             );
             contentBox.className += ` ${alignmentClasses}`;
 
             // Title
             if (item.title) {
                 const title = document.createElement('h2');
-                title.className = 'text-5xl font-DontStarve mb-6 text-[#bb8354] uppercase tracking-widest';
+                title.className =
+                    'text-5xl font-DontStarve mb-6 text-[#bb8354] uppercase tracking-widest';
                 title.innerText = item.title;
                 contentBox.appendChild(title);
             }
@@ -52,33 +57,44 @@ document.addEventListener('DOMContentLoaded', () => {
                 contentBox.appendChild(subtitle);
             }
 
-            // Main Text
+            // MAIN TEXT
             if (item.text) {
                 const text = document.createElement('p');
                 text.className = 'text-2xl leading-relaxed text-gray-300 mb-8';
-                text.innerHTML = item.text; // Allow HTML
+                text.innerHTML = item.text;
                 contentBox.appendChild(text);
             }
 
-            // Extra text blocks (text2, text3…)
+            // EXTRA QUOTES (quote2, quote3, quote4…)
+            Object.keys(item).forEach(key => {
+                if (key.startsWith("quote") && key !== "quote" && item[key]) {
+                    const quote = document.createElement('blockquote');
+                    quote.className =
+                        'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-BelisaPlumilla text-xl mt-6';
+                    quote.innerHTML = item[key];
+                    contentBox.appendChild(quote);
+                }
+            });
+
+            // EXTRA TEXT BLOCKS (text2, text3…)
             Object.keys(item).forEach(key => {
                 if (key.startsWith("text") && key !== "text" && item[key]) {
                     const extraText = document.createElement('p');
-                    extraText.className = 'text-2xl leading-relaxed text-gray-300 mb-8';
+                    extraText.className =
+                        'text-2xl leading-relaxed text-gray-300 mb-8';
                     extraText.innerHTML = item[key];
                     contentBox.appendChild(extraText);
                 }
             });
 
-            // ALL quotes (quote, quote2, quote3…)
-            Object.keys(item).forEach(key => {
-                if (key.startsWith("quote") && item[key]) {
-                    const quote = document.createElement('blockquote');
-                    quote.className = 'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-BelisaPlumilla text-xl mt-6';
-                    quote.innerHTML = item[key];
-                    contentBox.appendChild(quote);
-                }
-            });
+            // FINAL FEATURE QUOTE (quote)
+            if (item.quote) {
+                const finalQuote = document.createElement('blockquote');
+                finalQuote.className =
+                    'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-BelisaPlumilla text-xl mt-8';
+                finalQuote.innerHTML = item.quote;
+                contentBox.appendChild(finalQuote);
+            }
 
             step.appendChild(contentBox);
             stepsContainer.appendChild(step);
@@ -99,6 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 updateVisuals(theme, id);
 
+                // Step opacity highlighting
                 document.querySelectorAll('.step').forEach(s => s.classList.remove('opacity-100'));
                 document.querySelectorAll('.step').forEach(s => s.classList.add('opacity-30'));
                 step.classList.remove('opacity-30');
@@ -136,26 +153,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
         switch (theme) {
             case 'glitch':
-                contentHtml = `<div class="text-6xl font-black text-white opacity-70 px-8">01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101</div>`;
+                contentHtml =
+                    `<div class="text-6xl font-black text-white opacity-70 px-8">01110100 01101111 01101111 00100000 01101100 01100001 01110100 01100101</div>`;
                 break;
             case 'nature-tech':
-                contentHtml = `<div class="text-6xl font-bold opacity-90 px-8" style="color: #000000ff;">EMPATHY MODULE... RESPONDING?</div>`;
+                contentHtml =
+                    `<div class="text-6xl font-bold opacity-90 px-8" style="color: #000000ff;">EMPATHY MODULE... RESPONDING?</div>`;
                 break;
             case 'light':
-                contentHtml = `<div class="text-6xl font-bold text-white opacity-70 px-8">A CERTAIN FAMILIAL AFFECTION FOR MACHINES</div>`;
+                contentHtml =
+                    `<div class="text-6xl font-bold text-white opacity-70 px-8">A CERTAIN FAMILIAL AFFECTION FOR MACHINES</div>`;
                 break;
             case 'dark':
             default:
-                contentHtml = `<div class="text-9xl font-black text-white opacity-70">WX-78</div>`;
+                contentHtml =
+                    `<div class="text-9xl font-black text-white opacity-70">WX-78</div>`;
                 break;
             case 'conclusion':
-                contentHtml = `<div class="text-6xl font-bold opacity-90 px-8" style="color: #000000ff;">completely unrelated but Wxwood are gay /j</div>`;
+                contentHtml =
+                    `<div class="text-6xl font-bold opacity-90 px-8" style="color: #000000ff;">completely unrelated but Wxwood are gay /j</div>`;
                 break;
             case 'trust-and-daddy-issues-they-just-like-me-fr':
-                contentHtml = `<div class="text-6xl font-black text-white opacity-70">this robot has trust and daddy issues they're just like me fr</div>`;
+                contentHtml =
+                    `<div class="text-6xl font-black text-white opacity-70">this robot has trust and daddy issues they're just like me fr</div>`;
                 break;
             case 'evil?':
-                contentHtml = `<div class="text-6xl font-black text-white opacity-70">The real WX-78 or just a facade?</div>`;
+                contentHtml =
+                    `<div class="text-6xl font-black text-white opacity-70">The real WX-78 or just a facade?</div>`;
                 break;
         }
 
