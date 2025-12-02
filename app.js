@@ -65,6 +65,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 contentBox.appendChild(text);
             }
 
+            // IMAGE (between text and text2)
+            if (item.image) {
+                const img = document.createElement('img');
+                img.src = item.image;
+                img.className = "my-8 mx-auto rounded-lg shadow-lg";
+                contentBox.appendChild(img);
+
+                // CAPTION support
+                if (item.caption) {
+                    const caption = document.createElement('p');
+                    caption.className = "text-gray-400 italic text-[1.4rem] text-left mt-6";
+                    caption.innerText = item.caption;
+                    contentBox.appendChild(caption);
+                }
+            }
+
             // EXTRA QUOTES (quote2, quote3, quote4…)
             Object.keys(item).forEach(key => {
                 if (key.startsWith("quote") && key !== "quote" && item[key]) {
