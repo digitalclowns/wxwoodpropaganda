@@ -40,9 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
             );
             contentBox.className += ` ${alignmentClasses}`;
 
-            // ---------------------------------------------------
-            // TITLE
-            // ---------------------------------------------------
+            // -------------------------
+            // Title & Subtitle (always first)
+            // -------------------------
             if (item.title) {
                 const title = document.createElement('h2');
                 title.className =
@@ -51,7 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 contentBox.appendChild(title);
             }
 
-            // SUBTITLE
             if (item.subtitle) {
                 const subtitle = document.createElement('h3');
                 subtitle.className = 'text-3xl font-semibold mb-8 text-gray-400';
@@ -59,114 +58,94 @@ document.addEventListener('DOMContentLoaded', () => {
                 contentBox.appendChild(subtitle);
             }
 
-            // ---------------------------------------------------
-            // MAIN TEXT
-            // ---------------------------------------------------
-            if (item.text) {
-                const text = document.createElement('p');
-                text.className = 'text-2xl leading-relaxed text-gray-300 mb-8';
-                text.innerHTML = item.text;
-                contentBox.appendChild(text);
-            }
+            // -------------------------
+            // Render keys in the order they appear in content.json
+            // This gives me exact control: place "quote2" before "text2" in JSON to render quote2 first.
+            // We'll skip the final unnumbered "quote" during this pass and append it at the end.
+            // -------------------------
+            const keys = Object.keys(item);
+            // track which caption keys have been consumed when image was handled immediately prior
+            const handled = new Set();
 
-            // ---------------------------------------------------
-            // Main QUOTES before text2 (quote2 → quote10)
-            // ---------------------------------------------------
-            for (let i = 2; i <= 10; i++) {
-                let key = `quote${i}`;
-                if (item[key] && !item[`text2`]) {
-                    const quote = document.createElement('blockquote');
-                    quote.className =
-                        'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-BelisaPlumilla text-[1.4rem] text-right mt-6';
-                    quote.innerHTML = item[key];
-                    contentBox.appendChild(quote);
-                }
-            }
+            for (let k of keys) {
+                // skip some keys we've already handled or shouldn't render in this loop
+                if (k === 'title' || k === 'subtitle' || k === 'id' || k === 'section' || k === 'theme' || k === 'alignment') continue;
+                if (k === 'quote') continue; // final quote handled later
 
-            // ---------------------------------------------------
-            // MAIN IMAGE + CAPTION
-            // ---------------------------------------------------
-            if (item.image) {
-                const img = document.createElement('img');
-                img.src = item.image;
-                img.className = "my-8 mx-auto rounded-lg shadow-lg";
-                contentBox.appendChild(img);
+                // If we already rendered this key (e.g., caption consumed with an earlier image), skip
+                if (handled.has(k)) continue;
 
-                if (item.caption) {
-                    const caption = document.createElement('p');
-                    caption.className = "text-[1.2rem] text-gray-400 italic text-center mt-2 mb-8";
-                    caption.innerHTML = item.caption;
-                    contentBox.appendChild(caption);
-                }
-            }
-
-            // ---------------------------------------------------
-            // EXTRA SECTIONS (text2 → text10)
-            // Each gets its own quotes and images
-            // ---------------------------------------------------
-            for (let i = 2; i <= 10; i++) {
-                const textKey = `text${i}`;
-                const imageKey = `image${i}`;
-                const captionKey = `caption${i}`;
-                const quoteKey = `quote${i}`;
-
-                // Extra TEXT
-                if (item[textKey]) {
-                    const extraText = document.createElement('p');
-                    extraText.className =
-                        'text-2xl leading-relaxed text-gray-300 mb-8';
-                    extraText.innerHTML = item[textKey];
-                    contentBox.appendChild(extraText);
-
-                    // AFTER this text → show remaining quotes with numbers > this i
-                    for (let q = 2; q <= 10; q++) {
-                        if (q > i && item[`quote${q}`]) {
-                            const quote = document.createElement('blockquote');
-                            quote.className =
-                                'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-BelisaPlumilla text-[1.4rem] text-right mt-6';
-                            quote.innerHTML = item[`quote${q}`];
-                            contentBox.appendChild(quote);
-
-                            // mark as shown
-                            item[`quote${q}__shown`] = true;
-                        }
-                    }
+                // MAIN text or numbered text
+                if (k === 'text' || /^text\d+$/.test(k)) {
+                    const p = document.createElement('p');
+                    p.className = 'text-2xl leading-relaxed text-gray-300 mb-8';
+                    p.innerHTML = item[k];
+                    contentBox.appendChild(p);
+                    handled.add(k);
+                    continue;
                 }
 
-                // Extra IMAGE
-                if (item[imageKey]) {
+                // IMAGE (main or numbered)
+                if (k === 'image' || /^image\d+$/.test(k)) {
                     const img = document.createElement('img');
-                    img.src = item[imageKey];
+                    img.src = item[k];
                     img.className = "my-8 mx-auto rounded-lg shadow-lg";
                     contentBox.appendChild(img);
+                    handled.add(k);
 
+                    // corresponding caption: caption or captionN
+                    const captionKey = k === 'image' ? 'caption' : `caption${k.replace('image', '')}`;
                     if (item[captionKey]) {
                         const caption = document.createElement('p');
                         caption.className = "text-[1.2rem] text-gray-400 italic text-center mt-2 mb-8";
                         caption.innerHTML = item[captionKey];
                         contentBox.appendChild(caption);
+                        handled.add(captionKey);
                     }
+                    continue;
                 }
 
-                // Quotes matching this exact number (quote2 right after text2)
-                if (item[quoteKey] && !item[`${quoteKey}__shown`]) {
+                // CAPTION alone (in case someone puts caption before image) — render, but it's unusual
+                if (k === 'caption' || /^caption\d+$/.test(k)) {
+                    // only render if not already handled
+                    if (!handled.has(k)) {
+                        const caption = document.createElement('p');
+                        caption.className = "text-[1.2rem] text-gray-400 italic text-center mt-2 mb-8";
+                        caption.innerHTML = item[k];
+                        contentBox.appendChild(caption);
+                        handled.add(k);
+                    }
+                    continue;
+                }
+
+                // Numbered quotes (quote2, quote3, ...)
+                if (/^quote\d+$/.test(k)) {
                     const quote = document.createElement('blockquote');
                     quote.className =
-                        'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-BelisaPlumilla text-[1.4rem] text-right mt-6';
-                    quote.innerHTML = item[quoteKey];
+                        'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-BelisaPlumilla text-[1.4rem] text-left mt-6';
+                    quote.innerHTML = item[k];
                     contentBox.appendChild(quote);
+                    handled.add(k);
+                    continue;
+                }
 
-                    item[`${quoteKey}__shown`] = true;
+                // Any other key (safe fallback) — render as paragraph
+                if (!handled.has(k)) {
+                    const fallback = document.createElement('p');
+                    fallback.className = 'text-2xl leading-relaxed text-gray-300 mb-8';
+                    fallback.innerHTML = item[k];
+                    contentBox.appendChild(fallback);
+                    handled.add(k);
                 }
             }
 
-            // ---------------------------------------------------
+            // -------------------------
             // FINAL QUOTE (always last)
-            // ---------------------------------------------------
+            // -------------------------
             if (item.quote) {
                 const finalQuote = document.createElement('blockquote');
                 finalQuote.className =
-                    'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-BelisaPlumilla text-[1.4rem] text-right mt-8';
+                    'border-l-4 border-purple-500 pl-6 italic text-gray-400 font-BelisaPlumilla text-[1.4rem] text-left mt-8';
                 finalQuote.innerHTML = item.quote;
                 contentBox.appendChild(finalQuote);
             }
@@ -248,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'conclusion':
                 contentHtml =
                     `<div class="text-6xl font-bold opacity-90 px-8" style="color: #000000ff;">
-completely unrelated to this analysis (not really) but Wxwood are totally gay for each other, it&#39;s canon, my dad works for Klei /j
+completely unrelated to this analysis (not really) but Wxwood are totally gay for each other, it's canon, my dad works for Klei /j
 </div>`;
                 break;
             case 'trust-and-daddy-issues-they-just-like-me-fr':
