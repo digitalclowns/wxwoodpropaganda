@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
             case 'light':
                 contentHtml =
-                    `<div class="text-6xl font-bold text-white opacity-70 px-8">A CERTAIN FAMILIAL AFFECTION FOR MACHINES</div>`;
+                    `<div class="text-6xl font-bold text-white opacity-70 px-8">A CERTAIN FAMILIAL AFFECTION FOR MACHINES (AND PERHAPS OTHERS?)(AKA WORMWOOD)</div>`;
                 break;
             case 'dark':
             default:

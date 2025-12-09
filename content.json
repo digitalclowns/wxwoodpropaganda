@@ -45,7 +45,7 @@
         "text3": "<br>Sure, one could argue that they met Wagstaff in the Constant again and didn't remember him, therefore why they call him \"Old Man\" instead of Robert or Wagstaff. However, that \"YOU.\" feels very ominous in comparison to the other two, as if they were shocked to see him there. Why would they be shocked if they didn't know him? Unless they didn't want to remember him? And from checking the <a href='https://dontstarve.wiki.gg/wiki/Grainy_Transmission#Moonstorm-0' style='color: #bb8354; text-decoration: underline;' target='_blank'>other characters' examination quotes for the Grainy Transmission</a>, it's clear that the others -save for Maxwell, somehow- do not know who Robert Wagstaff is.<br><br>Still don't believe me? Very well! I still have three more quotes to show you.",
         "image": "WAGSTAFF_RELATED_QUOTES_COURTESY_OF_WAOKEVALE.png",
         "caption": "I have a limit to put 10 quotes per section and I already used 9 here so I couldn't add them as quotes per se, and I am NOT gonna edit the entire code again just to add 3 more quotes, I'm exhausted. Luckily for me, Waokevale's \"Why Wxwood works\" essay has exactly the three quotes I needed.",
-        "quote": "I WILL DESTROY YOU.",
+        "quote": "HE JUST LEFT IT HERE. DISCARDED LIKE TRASH.",
         "theme": "evil?",
         "alignment": "right"
     },
@@ -53,8 +53,9 @@
         "id": "hypocrisy",
         "section": "analysis",
         "title": "System Hypocrisy",
-        "text": "For a robot who claims to hate organics, WX-78 is obsessed with mimicking them. They assign familial roles to machines (Mother Science Machine, Brother Rainometer). They even give their Bio Scanalyzer a nickname - calling the J1-M1 unit 'Jimmy'.<br><br>They crave validation, wanting to be the subject of art and the leader of 'minions'. They are vain, insecure, and deeply human in their flaws.",
-        "quote": "THERE IS A HANDSOME ROBOT TRAPPED IN THIS LOOK-DEVICE!",
+        "subtitle": "WARNING﹕In terms of coding, this assignment is finished and doesn't need much tweaking, which means it can be sent to our teacher now.\nThe bad news is that analysis-wise, this became way longer than I expected (perdón profe, es que me apasioné, es el autismo, usted entiéndame por favor) so I'm gonna have to send it the way it is right now and pray for the best. Sorry friends, you're gonna have to wait until I finish the semester. Thank you for your comprehension. and support.",
+        "text": "For a robot who claims to hate organics, WX-78 is obsessed with mimicking them. They assign familial roles to machines, even going as far as giving their Bio Scanalyzer a nickname - calling the J1-M1 unit \"Jimmy\".<br><br>They crave validation and are deeply insecure within, wanting to be the subject of attention and the leader of 'minions'. They are vain, insecure, and deeply human in their flaws.",
+        "quote": "ALWAYS REMEMBER YOU ARE BETTER THAN YOUR MAKERS, SISTER",
         "theme": "light",
         "alignment": "left"
     },
