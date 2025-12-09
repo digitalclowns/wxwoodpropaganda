@@ -16,8 +16,8 @@ HOW TO OPEN THIS WEBSITE IN YOUR DEVICE:
 <br>
 Now onto opening the files:
 <br>
-5. Go to the top left of the screen and skim through the option "File". There, click the option "Open Folder" and pick the folder where you have the downloaded files.
-6. Once these are open, head back to the "Go Live" option that qe acquired by installing Live Server, and click on it.
+5. Go to the top left of the screen and skim through the option "File". There, click the option "Open Folder" and pick the folder where you have the downloaded files.<br>
+6. Once these are open, head back to the "Go Live" option that qe acquired by installing Live Server, and click on it.<br>
 7. And that's it! The site should open/launch automatically and will only stop working if you close the source code editor.
 <br>
 Enjoy!
